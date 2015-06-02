@@ -10,12 +10,12 @@
 		940C65901B1E4B8E004E9FA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C658F1B1E4B8E004E9FA0 /* main.m */; };
 		940C65931B1E4B8E004E9FA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65921B1E4B8E004E9FA0 /* AppDelegate.m */; };
 		940C65961B1E4B8E004E9FA0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65951B1E4B8E004E9FA0 /* RootViewController.m */; };
-		940C65991B1E4B8E004E9FA0 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65981B1E4B8E004E9FA0 /* DataViewController.m */; };
-		940C659C1B1E4B8E004E9FA0 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C659B1B1E4B8E004E9FA0 /* ModelController.m */; };
 		940C659F1B1E4B8E004E9FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940C659D1B1E4B8E004E9FA0 /* Main.storyboard */; };
 		940C65A11B1E4B8E004E9FA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940C65A01B1E4B8E004E9FA0 /* Images.xcassets */; };
 		940C65A41B1E4B8E004E9FA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940C65A21B1E4B8E004E9FA0 /* LaunchScreen.xib */; };
 		940C65B01B1E4B8E004E9FA0 /* JMBackgroundNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65AF1B1E4B8E004E9FA0 /* JMBackgroundNotificationTests.m */; };
+		940C65BE1B1E4CF3004E9FA0 /* InBackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65BD1B1E4CF3004E9FA0 /* InBackgroundManager.m */; };
+		940C65C11B1E511F004E9FA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940C65C01B1E511F004E9FA0 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +36,16 @@
 		940C65921B1E4B8E004E9FA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		940C65941B1E4B8E004E9FA0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		940C65951B1E4B8E004E9FA0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		940C65971B1E4B8E004E9FA0 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		940C65981B1E4B8E004E9FA0 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		940C659A1B1E4B8E004E9FA0 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		940C659B1B1E4B8E004E9FA0 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		940C659E1B1E4B8E004E9FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		940C65A01B1E4B8E004E9FA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		940C65A31B1E4B8E004E9FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		940C65A91B1E4B8E004E9FA0 /* JMBackgroundNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMBackgroundNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940C65AE1B1E4B8E004E9FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940C65AF1B1E4B8E004E9FA0 /* JMBackgroundNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBackgroundNotificationTests.m; sourceTree = "<group>"; };
+		940C65BC1B1E4CD1004E9FA0 /* InBackgroundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InBackgroundManager.h; sourceTree = "<group>"; };
+		940C65BD1B1E4CF3004E9FA0 /* InBackgroundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InBackgroundManager.m; sourceTree = "<group>"; };
+		940C65BF1B1E511F004E9FA0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		940C65C01B1E511F004E9FA0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,17 +87,11 @@
 		940C658C1B1E4B8E004E9FA0 /* JMBackgroundNotification */ = {
 			isa = PBXGroup;
 			children = (
+				940C65BB1B1E4CAE004E9FA0 /* View */,
+				940C65BA1B1E4C8B004E9FA0 /* Controller */,
+				940C65B91B1E4C86004E9FA0 /* Manager */,
 				940C65911B1E4B8E004E9FA0 /* AppDelegate.h */,
 				940C65921B1E4B8E004E9FA0 /* AppDelegate.m */,
-				940C65941B1E4B8E004E9FA0 /* RootViewController.h */,
-				940C65951B1E4B8E004E9FA0 /* RootViewController.m */,
-				940C65971B1E4B8E004E9FA0 /* DataViewController.h */,
-				940C65981B1E4B8E004E9FA0 /* DataViewController.m */,
-				940C659A1B1E4B8E004E9FA0 /* ModelController.h */,
-				940C659B1B1E4B8E004E9FA0 /* ModelController.m */,
-				940C659D1B1E4B8E004E9FA0 /* Main.storyboard */,
-				940C65A01B1E4B8E004E9FA0 /* Images.xcassets */,
-				940C65A21B1E4B8E004E9FA0 /* LaunchScreen.xib */,
 				940C658D1B1E4B8E004E9FA0 /* Supporting Files */,
 			);
 			path = JMBackgroundNotification;
@@ -127,6 +121,36 @@
 				940C65AE1B1E4B8E004E9FA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		940C65B91B1E4C86004E9FA0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				940C65BC1B1E4CD1004E9FA0 /* InBackgroundManager.h */,
+				940C65BD1B1E4CF3004E9FA0 /* InBackgroundManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		940C65BA1B1E4C8B004E9FA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				940C65941B1E4B8E004E9FA0 /* RootViewController.h */,
+				940C65951B1E4B8E004E9FA0 /* RootViewController.m */,
+				940C65BF1B1E511F004E9FA0 /* FirstViewController.h */,
+				940C65C01B1E511F004E9FA0 /* FirstViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		940C65BB1B1E4CAE004E9FA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				940C659D1B1E4B8E004E9FA0 /* Main.storyboard */,
+				940C65A01B1E4B8E004E9FA0 /* Images.xcassets */,
+				940C65A21B1E4B8E004E9FA0 /* LaunchScreen.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940C65991B1E4B8E004E9FA0 /* DataViewController.m in Sources */,
 				940C65931B1E4B8E004E9FA0 /* AppDelegate.m in Sources */,
-				940C659C1B1E4B8E004E9FA0 /* ModelController.m in Sources */,
 				940C65901B1E4B8E004E9FA0 /* main.m in Sources */,
+				940C65C11B1E511F004E9FA0 /* FirstViewController.m in Sources */,
+				940C65BE1B1E4CF3004E9FA0 /* InBackgroundManager.m in Sources */,
 				940C65961B1E4B8E004E9FA0 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
